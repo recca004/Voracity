@@ -189,7 +189,7 @@ display: grid;
 }
 
 
-
+/* index page a-propos */
 .a-propos{
 	background: #2e4359;
 
@@ -243,6 +243,116 @@ display: grid;
 	position: relative;
 	top:30px;
 }
+/* end a-propos */
+section.mainpage{
+   /* background: #2e4359;*/
+    padding-left: 16px;
+    padding-top: 30px;
+    margin-top: 1px;
+    display: grid;
+    grid-gap: 20px 10px;
+    grid-template-columns: repeat(12, 1fr);
+margin-bottom: -90px;
+
+}
+section.mainpage h2{
+	color: #fff;
+	font-size: 36pt;
+	order: 2;
+	padding-bottom: 24px;
+    grid-column: 2 / 12;	
+}
+section.mainpage h4{
+	color:#8a8a8a;
+	font-size: 16pt;
+	margin-bottom: 30px;
+	order: 1;
+	font-weight: 200;
+    grid-column: 1 / 8;	
+
+}
+
+section.mainpage img {
+   /*background: #2e4359;*/
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 1px;
+    order: 4;
+    align-self: end;
+    justify-self: right;
+    margin-right: 10px;
+    margin-top: 40px;
+    grid-column: 7 / 12;	
+        margin-bottom: 80px;
+}
+
+section.mainpage img:hover {    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+section.mainpage p{
+	color: #8a8a8a;
+	font-size: 16pt;
+	padding-left: 25px;
+	order: 3;
+	padding-right: 10px;
+    grid-column: 2 / 7;	
+
+}
+section.mainpage a{
+	color: #8a8a8a;
+	text-decoration: none;
+	font-size: 16pt;
+	order: 6;
+	position: relative;
+	top:30px;
+}
+section.mainpage p:nth-child(2n+1){
+	color: #8a8a8a;
+	font-size: 16pt;
+	padding-left: 25px;
+order: 7;
+	padding-right: 10px;
+    grid-column: 2 / 7;	
+
+}
+section.mainpage h2:nth-child(2n+1){
+	color: #fff;
+	font-size: 36pt;
+order: 7;
+	padding-bottom: 24px;
+    grid-column: 6 / 12;	
+}
+section.mainpage img:nth-child(2n+1) {
+    background: #2e4359;
+    width: 80%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 1px;
+    order: 8;
+    align-self: end;
+    justify-self: right;
+    margin-right: 10px;
+    margin-top: 40px;
+    grid-column: 7 / 12;	
+        margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .shop{
 margin-top: 80px;	
 	padding-left: 16px;
