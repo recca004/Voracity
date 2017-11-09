@@ -17,6 +17,7 @@ h1.site-title {
 	text-align: center;
 	 letter-spacing: 1px;
 }
+.headercontain {max-width: 1020px; margin: auto;}
 header#header a  {
     color: #fff;
     text-decoration: none;
@@ -40,6 +41,7 @@ header#header .sub-header{
 
 p{
 	font-family: 'Myriad Pro','Open Sans', sans-serif;
+	font-weight: 100;
 }
 #wrap{
 	width: 100%;
