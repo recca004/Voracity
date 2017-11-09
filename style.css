@@ -602,8 +602,8 @@ footer#footer .footer ul.social li a{
 	header#header{width: auto; 	background: #2e4359; 		display: grid;		grid-template-columns: repeat(12, 1fr); /* 12 col grid */ 		 text-align: right; }
 	header#header> nav ul li {     list-style-type: none;     padding: 20px;     background: none;     color: white; }
 
-	 	header#header> a, header#header>img{padding: 20px;		grid-column: 1 / 5;}
-		header#header> nav{	grid-column: 5 / 13;}
+	 	header#header> a, header#header>img{padding: 20px;		grid-column: 2 / 5;}
+		header#header> nav{	grid-column: 5 / 11;}
 	
 	
 	
