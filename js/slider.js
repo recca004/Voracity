@@ -70,27 +70,27 @@ function showDivs(n) {
 
 
 
-//var slideIndex2 = 1;
-//showshop(slideIndex2);
+var slideIndex2 = 1;
+showshop(slideIndex2);
 
-//function plusshop(n) {
-//    showshop(slideIndex2 += n);
-//}
+function plusshop(n) {
+    showshop(slideIndex2 += n);
+}
 
-//function showshop(n) {
-//    var i;
-//    var x = document.getElementsByClassName("shopcard");
-//    if (n > x.length) {slideIndex2 = 1} 
-//    if (n < 1) {slideIndex2 = x.length} ;
-//    for (i = 1	; i < x.length; i++) {
-//        x[i].style.display = "none"; 
-//		console.log(x)
-//    }
+function showshop(n) {
+   var i;
+   var x = document.getElementsByClassName("shopcard");
+   if (n > x.length) {slideIndex2 = 1} 
+    if (n < 1) {slideIndex2 = x.length} ;
+    for (i = 1	; i < x.length; i++) {
+        x[i].style.display = "none"; 
+		console.log(x)
+    }
 	
-//    x[slideIndex2-1].style.display = "block"; 
+   x[slideIndex2-1].style.display = "block"; 
 	
 	
-//}
+}
 
 
 
