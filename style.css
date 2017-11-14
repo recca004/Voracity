@@ -36,7 +36,7 @@ header#header> a, header#header>img{padding: 20px;grid-column: 1 / 7;}
 header#header> nav{grid-column: 7 / 13;}
 header#header> nav ul{display: none;}
 header#header> nav ul li{list-style-type: none;padding: 20px 0;    background: #000;	color: white;}
-header#header> nav ul li a{	padding: 20px 20px;	text-decoration: none;	font-size: 1.4em;	color: #fff; text-transform: capitalize;}
+header#header> nav ul li a{	padding: 20px 20px;	text-decoration: none;	font-size: 14pt;	color: #fff; text-transform: capitalize;}
 header#header .btndropdownmenu{color: #fff;font-size: 200%;	display: block;	text-align:right;	padding-right: 20px;	margin-top: 20px;}
 header#header #main-menu {  display: none;} /*menu pas visible */
 .headercontain {max-width: 1020px; margin: auto;}
