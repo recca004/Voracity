@@ -36,7 +36,7 @@ header#header> a, header#header>img{padding: 20px;grid-column: 1 / 7;}
 header#header> nav{grid-column: 7 / 13;}
 header#header> nav ul{display: none;}
 header#header> nav ul li{list-style-type: none;padding: 20px 0;    background: #000;	color: white;}
-header#header> nav ul li a{	padding: 20px 20px;	text-decoration: none;	font-size: 1.4em;	color: #fff; text-transform: capitalize;}
+header#header> nav ul li a{	padding: 20px 20px;	text-decoration: none;	font-size: 14pt;	color: #fff; text-transform: capitalize;}
 header#header .btndropdownmenu{color: #fff;font-size: 200%;	display: block;	text-align:right;	padding-right: 20px;	margin-top: 20px;}
 header#header #main-menu {  display: none;} /*menu pas visible */
 .headercontain {max-width: 1020px; margin: auto;}
@@ -114,7 +114,7 @@ section.mainpage form input[type=text]{grid-column: 2/12;}
 .produit .slider3 a{color: #8a8a8a;text-decoration: none;font-size: 16pt;text-align: center;grid-column-start: 1;grid-column-end: 3;}
 .produit {margin-top: 0px;padding-left: 16px;padding-right: 16px;padding-top: 0px;grid-gap: 20px 10px;}
 .produit h2 {color: #000;font-size: 36pt;text-align: center;margin-bottom: 70px;grid-column: 1/13;grid-row: 2;}
-.produit h4 {color: #8a8a8a;font-size: 16pt;margin-bottom: 25px;font-weight: 200;margin-top: 80px;grid-column: 2;grid-row: 1;}
+.produit h4 {color: #8a8a8a;font-size: 10pt;margin-bottom: 25px;font-weight: 200;margin-top: 80px;grid-column: 2;grid-row: 1;}
 
 footer#footer{/*margin-top: 80px;padding-top: 30pt;*/ display: grid;grid-template-columns: auto; }
 footer#footer a  {color: #fff;text-decoration: none;}
