@@ -69,7 +69,7 @@ function showDivs(n) {
 }
 
 
-
+/*
 var slideIndex2 = 1;
 showshop(slideIndex2);
 
@@ -92,7 +92,7 @@ function showshop(n) {
 	
 }
 
-
+*/
 
 
 
