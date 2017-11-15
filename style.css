@@ -127,7 +127,7 @@ section.mainpage form input[type=text]{grid-column: 2/12;}
 .produit .slider3 a{color: #8a8a8a;text-decoration: none;font-size: 16pt;text-align: center;grid-column-start: 1;grid-column-end: 3;}
 .produit {margin-top: 0px;padding-left: 16px;padding-right: 16px;padding-top: 0px;grid-gap: 20px 10px;}
 .produit h2 {color: #000;font-size: 36pt;text-align: center;margin-bottom: 70px;grid-column: 1/13;grid-row: 2;}
-.produit h4 {color: #8a8a8a;font-size: 16pt;margin-bottom: 25px;font-weight: 200;margin-top: 80px;grid-column: 2;grid-row: 1;}
+.produit h4 {color: #8a8a8a;font-size: 10pt;margin-bottom: 25px;font-weight: 200;margin-top: 80px;grid-column: 2;grid-row: 1;}
 
 /* ************************************* Page Footer  *************************************************/
 footer#footer{/*margin-top: 80px;padding-top: 30pt;*/ display: grid;grid-template-columns: auto; }
